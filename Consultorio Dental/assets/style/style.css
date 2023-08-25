@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: large;
+    font-family:inherit;
+}
+
+#mision{
+    text-align: justify;
+    padding: 50px 50px 50px;
+    background-color: rgb(137, 195, 192);
+}
+
+.Slogan{
+    text-align: center;
+}
+
+.gentefeliz{
+    border-radius: 150px;
+    padding: 25px 25px;
+    
+}
+
+.asociados{
+    padding: 15px 15px 15px;
+}
+
+footer{
+    background-color: rgb(113, 113, 214);
+    padding: 30px ;
+}
+
