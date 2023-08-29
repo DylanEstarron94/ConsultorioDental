@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="procesar_formulario" method="post"></form>
+    <!--Se utiliza para crear formulario en HTML que permite a los usuarios ingresar y enviar datos-->
+    <br><br>
+   <span>
+    <h1>Formulario para citas</h1>
+    <label for="Correo electrónico">Correo electronico</label> <br>
+    <input type="email" name="correo" placeholder="ejemplo@dientessanos.com">
+    <br><br>
+    <label for="nombre">Ingrese su nombre</label> <br>
+    <input type="text" name="nombre" placeholder="nombre(s)"> <br><br>
+    <input type="text" name="apellido1" placeholder="Primer apellido"> <br><br>
+    <input type="text" name="apellido2" placeholder="Segundo apellido"><br><br>
+    <select name="select">
+        <option value="Seleccionar" selected>Seleccionar</option>
+        <option value="Limpieza dental">Limpieza dental</option>
+        <option value="Blanqueamientos">Blanqueamientos</option>
+        <option value="Rehabilitacion dental">Rehabilitacion dental</option>
+        <option value="Extracción de Molares">Extracción de Molares</option>
+        <option value="Puentes dentales">Puentes dentales</option>
+        <option value="Coronas">Coronas</option>
+        <option value="Ortodóncia en adultos">Ortodóncia en adultos</option>
+        <option value="Ortodóncia pedriática">Ortodóncia pediátrica</option>
+        <option value="Brackets">Brackets</option>
+        <option value="Brackets porcelana">Brackets porcelana</option>
+        <option value="Placas">Placas</option>
+        <option value="Microimplaintes">Microimplaintes</option>
+      </select> <br><br>
+    <label for="citas">Ingrese el día y la hora que requiere su cita</label> <br><br>
+    <label for="fecha">fecha</label> 
+    <input type="date" name="fecha"><br><br>
+    <label for="hora">Hora</label>
+    <input type="time" name="hora"> <br><br>
+    <label for="extras">Escriba sus necesidades</label> <br>
+    <textarea name="comentarios" id="" cols="50" rows="10" placeholder="Requerimientos para la consulta"></textarea> <br><br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpiar formulario</button>
+   </span>
+</body>
+</html>
+
+<!--hay un atributo que permite establecer un mínimo y un máximo tanto para campos del tipo date y number. Tal cual se llama así "min y max", y podemos establecer límites en la fecha que se muestra (por ejemplo min="2003-08-28" max="1924-08-28). Si necesitan validar sólo el número de la edad (>18), si se puede hacer con validaciones de JS-->
+
+<!--Para delimitar una cantidad de caracteres para el input de tipo text o number, existe la propiedad maxlength. A veces es mejor tener un primer filtro desde HTML antes de entrar a validaciones de JS-->
+
+<!-- <h1>Formularios</h1>
+    <form action="procesar_formulario" method="post">Formulario consultorio dental</form>
+    <!--Se utiliza para crear formulario en HTML que permite a los usuarios ingresar y enviar datos--
+    <br>
+    <h3>Etiqueta Input</h3>
+    <!--Se utiliza para crear campos de entrada en un formulario--
+    <input type="text" name="usuario" placeholder="Usuario">
+    <!--type: define el tipo de entrada (texto, correo, contraseña, etc.)-->
+    <!--name: es el normbre del campo, utilizado para identificar el dato cuando se envía el formulario-->
+    <!--placeholder: proporciona un texto ejemplo dentro del campo de entrada--
+    <br>
+    <h3>Etiqueta Label</h3>
+    <!--Se utiliza para etiquetar un elemento de entrada en un formulario, mejora la accesibilidad y la experiencia de usuario--
+    <label for="Usuario">Usuario</label>
+    <input type="text"id="usuario" name="usuario">
+     <br><br>
+    <h3>Etiqueta de Button</h3>
+    <!--Se utilza para crear botones en el formulario--
+    <button type="submit">Enviar</button>
+    <button type="reset">Restablecer</button>
+    <!-- type: define el tipo de botón (submit, reset, button) -->
+    <!-- name: es el nombre del botón, utilizado para identificar el botón cuando se envió el formulario --
+    <br><br>
+    <h3>Etiqueta Area de Texto</h3>
+    <!--Se utiliza para crear campos de texto en un formulario--
+    <textarea name="comentarios" id="comentario" cols="100" rows="7" placeholder="Escriba un comentario"></textarea>
+    <br><br>
+    <h3>Etiqueta Select</h3>
+    <br>
+    <hr>
+    <h1>Tipos de Entrada</h1>
+    <!--Permiten a los usuarios ingresar diferentes tipos de datos en un formulario--
+    <h4>Enviar (Submit)</h4>
+    <!--Crea un boton que, cuando hace clic, envía la información a una ubicación específica--
+    <form action="/procesar_formulario" method="post">
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <h4>Número (number)</h4>
+    <!--Crea un campo de entrada para que el usuario ingrese números--
+    <input type="number" name="número">
+    <h4>Contraseña (password)</h4>
+    <!--Crea un campo de entrada para que un usuario ingrese una contraseña--
+    <input type="password" name="contraseña">
+    <br>
+    <h4>Correo electrónico (email)</h4>
+    <!--crea un campo para que el usuario ingrese un correo--
+    <input type="email" name="correo">
+    <h4>Fecha (date)</h4>
+    <!--Crea un campo de entrada que permite a los usuarios ingresar una fecha--
+    <input type="date" name="fecha">
+    <br>
+    <h4>Hora (time)</h4>
+    <!--Crea un campo de entrada que permite al usuario elegir una hora--
+    <input type="time" name="hora">
+    <br>
+    <h4>Teléfono (tel)</h4>
+    <!--Crea un campo de entrada que permite al usuario ingresar un número telefónico--
+    <input type="tel" name="telefono">
+    <br>
+    <h4>Archivo (file)</h4>
+    <!--Crea un campo de entrada que permite al usuario cargar un archivo--
+    <input type="file" name="archivo">-->
