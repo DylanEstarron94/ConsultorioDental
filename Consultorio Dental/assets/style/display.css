@@ -1,0 +1,66 @@
+.imagen{
+    width: 490px;
+}
+
+/* Estilos generales */
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para mis articulos */
+
+#articuloUno{
+    margin: 20px;
+    padding: 20px;
+    background-color: lightsteelblue;
+    border: 1px solid black;
+}
+
+#articuloDos{
+    margin: 20px;
+    padding: 20px;
+    background-color: lightsteelblue;
+    border: 1px solid black;
+}
+
+#articuloTres{
+    margin: 20px;
+    padding: 20px;
+    background-color: lightsteelblue;
+    border: 1px solid black;
+}
+
+div ul li{
+    display: inline;
+    margin: 50px;
+    text-decoration: none;
+    border: solid blue;
+}
+
+
+/*
+Display
+
+Nos sirve para controlar como se muestra un elemento dentro de nuestro documento.
+
+Esta propiedad es distinta de position porque display se encarga de definir como se muestran u ocultan elementos (NO SE ELIMINA EL CODIGO)
+
+-none
+-inline
+-block
+-inline block
+
+
+None
+
+Hace que el elemento se oculte completamente y que no ocupe espacio en la página (no se elimina), y este valor se utiliza comunmente para ocultar elementos debido a la interacción den la ventana del navegador (un menú que se oculte cuando la ventana se haga pequeña
+
+inline
+
+Es el valor por defecto, hace que el elemento se muestre en linea con el tecto que lo rodea
+
+
+
+*/

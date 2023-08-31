@@ -1,0 +1,49 @@
+body {
+    background: #FFF3DA;
+}
+
+.footer {
+    background-color: #BEADFA;
+    margin-bottom: 0px;
+}
+
+.col-sm-12 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.col-md-6 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.col-lg-3 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.col-9 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.col-auto {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.especialistas {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#texto {
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 5px #BEADFA;
+    background-color: #DFCCFB;
+    text-align: justify;
+}
+
+#imagen {
+    border: solid 5px #BEADFA;
+}

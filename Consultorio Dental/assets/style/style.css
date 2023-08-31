@@ -1,51 +1,143 @@
-h1{
-    text-align: center;
-    background: #3CECBB;
-    background: -moz-linear-gradient(top, #3CECBB 0%, #1C6CA2 100%);
-    background: -webkit-linear-gradient(top, #3CECBB 0%, #1C6CA2 100%);
-    background: linear-gradient(to bottom, #3CECBB 0%, #1C6CA2 100%);
-}
 
-p{
+p {
     font-size: large;
-    font-family:inherit;
+    font-family: inherit;
 }
 
-#mision{
+#mision {
     text-align: justify;
     padding: 50px 50px 50px;
     background-color: rgb(137, 195, 192);
 }
 
-.Slogan{
+
+.Slogan {
     text-align: center;
 }
 
-.gentefeliz{
+.gentefeliz {
     border-radius: 150px;
     padding: 25px 25px;
-    
+
 }
 
-.asociados{
+.asociados {
     padding: 15px 15px 15px;
 }
 
-footer{
+footer {
     background: #3CECBB;
     background: -moz-linear-gradient(top, #3CECBB 0%, #1C6CA2 100%);
     background: -webkit-linear-gradient(top, #3CECBB 0%, #1C6CA2 100%);
     background: linear-gradient(to bottom, #3CECBB 0%, #1C6CA2 100%);
-    padding: 30px ;
+    padding: 2px;
 }
 
-body{
-    background-color:blanchedalmond;
+
+
+/*estilos generales*/
+body {
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-.formulario{
-    background: #3CECBB;
-    background: -moz-linear-gradient(top, #3CECBB 0%, #1C6CA2 100%);
-    background: -webkit-linear-gradient(top, #3CECBB 0%, #1C6CA2 100%);
-    background: linear-gradient(to bottom, #3CECBB 0%, #1C6CA2 100%);
+/*Estilo a todo el contenedor de productos*/
+.contenedorProducto{
+    border: 1px solid black;
+    background-color: darkorchid;
+    margin: 20px;
 }
+
+#producto1{
+    border: 1px solid black;
+    margin: 50px;
+    padding: 20px;
+    border-color: white;
+    background-color: white;
+
+}
+
+#producto2{
+    border: 1px solid black;
+    margin: 50px;
+    padding: 20px;
+    border-color: white;
+    background-color: white ;
+    /*position: relative; */
+}
+
+#producto3{
+    border: 1px solid black;
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+    border-color: white;
+}
+
+/* Estilos de mi boton de inicio */
+#botoninicio{
+    position: fixed;
+    font-size: 20px;
+    
+}
+
+/* Estilos para titulo */
+#titulo{
+    background-color: white;
+    padding: 15px;
+    position: sticky;
+    top: 1px;
+}
+
+/*
+
+Valor position
+
+En CSS la propiedad de position nos sirve para controlar la posición de un elemento en una página web y toma como consideración su posición dentro del documento y se interpreta en el flujo de trabajo (de arriba a abajo y de izquierda a derecha).
+
+Con esta propiedad buscamos evitar el uso indiscrimidado del margin y el padding
+
+Valores que trabajan con position:
+
+    -static
+    -relative
+    -absolute
+    -fixed
+    -sticky
+*/
+
+/*
+
+Static
+
+Es el valor por defecto de todos los elementos que ponemos en nuestro documento, respeta el flujo normal de la página, es decir, se posiciona en el lugar que le corresponde (conforme se lee el documento), no se puede modificar con valores de margen en top, bottomn right y left.
+
+Caso de uso: resumen de compras de un carrito de compras
+
+
+Relative
+
+Cuando usamos el valor relative, vamos a posicionar un elemento respecto al flujo normal de trabajo (arriba/abajo, izq/der). Se puede decir que vamos a colocar el elemento tomando una posición desde la esquina superior izquierda del contenedor
+
+Podemos usar left, right y bottom para modificar la posición, con la ventaja que modificar estos valores no "rompe" el flujo normal de trabajo, es decir, el elemento se mueve y deja el espacio vacío.
+
+caso de uso: un botón para ver el detalle del producto, que podemos mover a nuestro antojo.
+
+Absolute
+
+Cuando usamos el valor absoluto, hacemos que nuestro elemento no esté dentro del flujo normal del documento (quiere decir que SI SE MODIFICAN LOS ELEMENTOS QUE ESTÉN AL REDEDOR DEL ELEMENTO CON ABSOLUTE) Quiere decir que si modificamos, no dejamos huecos entre elementos.
+
+Fixed
+
+Hace que el elemento salga del flujo normal del documento, toma como referencia al viewport o tamaño de pantalla, es decir, no le hace caso a nadie más que a la pantalla por salirse de ese flujo.
+independientemente de si hacemos scroll o no, o incluso el tamaño de la pantalla, el botón se queda fijo.
+
+sticky
+
+Cuando usamos un elemento con esta propiedad, primero se comporta como un relative (respeta el flujo del documento), cuando ocurro una situación especial (tamaño en pixeles), cambia su comportamiento y se comporta como un fixed.
+
+Caso de uso: barras de navegación o menús que se quedan pegadas cuando se scrollea.
+
+
+*/

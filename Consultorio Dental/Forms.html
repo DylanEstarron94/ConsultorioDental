@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
 </head>
+
 <body>
     <form action="procesar_formulario" method="post"></form>
     <!--Se utiliza para crear formulario en HTML que permite a los usuarios ingresar y enviar datos-->
     <br><br>
-   <span>
-    <h1>Formulario para citas</h1>
-    <label for="Correo electrónico">Correo electronico</label> <br>
-    <input type="email" name="correo" placeholder="ejemplo@dientessanos.com">
-    <br><br>
-    <label for="nombre">Ingrese su nombre</label> <br>
-    <input type="text" name="nombre" placeholder="nombre(s)"> <br><br>
-    <input type="text" name="apellido1" placeholder="Primer apellido"> <br><br>
-    <input type="text" name="apellido2" placeholder="Segundo apellido"><br><br>
-    <select name="select">
-        <option value="Seleccionar" selected>Seleccionar</option>
-        <option value="Limpieza dental">Limpieza dental</option>
-        <option value="Blanqueamientos">Blanqueamientos</option>
-        <option value="Rehabilitacion dental">Rehabilitacion dental</option>
-        <option value="Extracción de Molares">Extracción de Molares</option>
-        <option value="Puentes dentales">Puentes dentales</option>
-        <option value="Coronas">Coronas</option>
-        <option value="Ortodóncia en adultos">Ortodóncia en adultos</option>
-        <option value="Ortodóncia pedriática">Ortodóncia pediátrica</option>
-        <option value="Brackets">Brackets</option>
-        <option value="Brackets porcelana">Brackets porcelana</option>
-        <option value="Placas">Placas</option>
-        <option value="Microimplaintes">Microimplaintes</option>
-      </select> <br><br>
-    <label for="citas">Ingrese el día y la hora que requiere su cita</label> <br><br>
-    <label for="fecha">fecha</label> 
-    <input type="date" name="fecha"><br><br>
-    <label for="hora">Hora</label>
-    <input type="time" name="hora"> <br><br>
-    <label for="extras">Escriba sus necesidades</label> <br>
-    <textarea name="comentarios" id="" cols="50" rows="10" placeholder="Requerimientos para la consulta"></textarea> <br><br>
-    <button type="submit">Enviar</button>
-    <button type="reset">Limpiar formulario</button>
-   </span>
+    <span>
+        <h1>Formulario para citas</h1>
+        <label for="Correo electrónico">Correo electronico</label> <br>
+        <input type="email" name="correo" placeholder="ejemplo@dientessanos.com">
+        <br><br>
+        <label for="nombre">Ingrese su nombre</label> <br>
+        <input type="text" name="nombre" placeholder="nombre(s)"> <br><br>
+        <input type="text" name="apellido1" placeholder="Primer apellido"> <br><br>
+        <input type="text" name="apellido2" placeholder="Segundo apellido"><br><br>
+        <select name="select">
+            <option value="Seleccionar" selected>Seleccionar</option>
+            <option value="Limpieza dental">Limpieza dental</option>
+            <option value="Blanqueamientos">Blanqueamientos</option>
+            <option value="Rehabilitacion dental">Rehabilitacion dental</option>
+            <option value="Extracción de Molares">Extracción de Molares</option>
+            <option value="Puentes dentales">Puentes dentales</option>
+            <option value="Coronas">Coronas</option>
+            <option value="Ortodóncia en adultos">Ortodóncia en adultos</option>
+            <option value="Ortodóncia pedriática">Ortodóncia pediátrica</option>
+            <option value="Brackets">Brackets</option>
+            <option value="Brackets porcelana">Brackets porcelana</option>
+            <option value="Placas">Placas</option>
+            <option value="Microimplaintes">Microimplaintes</option>
+        </select> <br><br>
+        <label for="citas">Ingrese el día y la hora que requiere su cita</label> <br><br>
+        <label for="fecha">fecha</label>
+        <input type="date" name="fecha"><br><br>
+        <label for="hora">Hora</label>
+        <input type="time" name="hora"> <br><br>
+        <label for="extras">Escriba sus necesidades</label> <br>
+        <textarea name="comentarios" id="" cols="50" rows="10" placeholder="Requerimientos para la consulta"></textarea>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar formulario</button>
+    </span>
 </body>
+
 </html>
 
 <!--hay un atributo que permite establecer un mínimo y un máximo tanto para campos del tipo date y number. Tal cual se llama así "min y max", y podemos establecer límites en la fecha que se muestra (por ejemplo min="2003-08-28" max="1924-08-28). Si necesitan validar sólo el número de la edad (>18), si se puede hacer con validaciones de JS-->
@@ -58,8 +63,8 @@
     <!--Se utiliza para crear campos de entrada en un formulario--
     <input type="text" name="usuario" placeholder="Usuario">
     <!--type: define el tipo de entrada (texto, correo, contraseña, etc.)-->
-    <!--name: es el normbre del campo, utilizado para identificar el dato cuando se envía el formulario-->
-    <!--placeholder: proporciona un texto ejemplo dentro del campo de entrada--
+<!--name: es el normbre del campo, utilizado para identificar el dato cuando se envía el formulario-->
+<!--placeholder: proporciona un texto ejemplo dentro del campo de entrada--
     <br>
     <h3>Etiqueta Label</h3>
     <!--Se utiliza para etiquetar un elemento de entrada en un formulario, mejora la accesibilidad y la experiencia de usuario--
@@ -71,7 +76,7 @@
     <button type="submit">Enviar</button>
     <button type="reset">Restablecer</button>
     <!-- type: define el tipo de botón (submit, reset, button) -->
-    <!-- name: es el nombre del botón, utilizado para identificar el botón cuando se envió el formulario --
+<!-- name: es el nombre del botón, utilizado para identificar el botón cuando se envió el formulario --
     <br><br>
     <h3>Etiqueta Area de Texto</h3>
     <!--Se utiliza para crear campos de texto en un formulario--
