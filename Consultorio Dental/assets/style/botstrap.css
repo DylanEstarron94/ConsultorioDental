@@ -1,30 +1,31 @@
-body {
-    background: #FFF3DA;
-}
+@media(min-width:500px) and (max-width:1024px){
+    body{
+        background-color: aquamarine;
+    }
 
-.footer {
-    background-color: #BEADFA;
-    margin-bottom: 0px;
+    #texto{
+        display: none;
+    }
 }
 
 .col-sm-12 {
-    margin-bottom: 15px;
-    margin-top: 15px;
+    /*margin-bottom: 15px;
+    margin-top: 15px;*/
 }
 
 .col-md-6 {
-    margin-bottom: 15px;
-    margin-top: 15px;
+    /*margin-bottom: 15px;
+    margin-top: 15px;*/
 }
 
 .col-lg-3 {
-    margin-bottom: 15px;
-    margin-top: 15px;
+    /*margin-bottom: 15px;
+    margin-top: 15px;*/
 }
 
 .col-9 {
-    margin-bottom: 15px;
-    margin-top: 15px;
+    /*margin-bottom: 15px;
+    margin-top: 15px;*/
 }
 
 .col-auto {
@@ -46,4 +47,31 @@ body {
 
 #imagen {
     border: solid 5px #BEADFA;
+    margin-right: 10px;
 }
+
+.titulo {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* Media Query
+
+Responsive: Responde a un determinado factor o situación. Es la capacidad que tienen los elementos para ajustar a las ventanas (tanto en tamaño como en disposición)
+
+CSS puro (Media Querys)
+
+Una regla espacial que se ejecuta solo cuando se cumplen ciertas condiciones. Estas condiciones están relacionadas con las características de nuestro dispositivo, como el ancho de la pantalla, la orientación y la resolución.
+
+La sintaxis de una media query es:
+
+@media(parámetros o condiciones a cumplir) {
+    estilos que se aplican cuando se cumple la condición
+}
+
+
+
+*/
