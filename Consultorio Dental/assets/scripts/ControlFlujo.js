@@ -93,3 +93,4 @@ function calcularCostoDeconsulta(tipoServicio, tiempoConsulta, emergencia, promo
     }
 
 }
+
