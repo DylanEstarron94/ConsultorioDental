@@ -33,6 +33,10 @@ let resultadoResta = 10-4; //El resultado contendrá el valor de 6
 
 let resultadoMult = 6*3; //El resultado contendrá el valor 18.
 
+//Exponenciación (**): Se utiliza para hacer la potencia de un número
+
+let resultadoExp = 2**3; //El resultado contendrá el valor de 8.
+
 //División (/): Se utiliza para dividir un número entre otro. La división por cero produce un valor especial llamado "infinity" (infinito).
 
 let resultadoDiv = 15/3; //El resultado contendrá el valor 5.
