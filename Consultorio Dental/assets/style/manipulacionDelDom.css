@@ -1,0 +1,20 @@
+/*Estilos generales*/
+
+body{
+    text-align: center;
+}
+
+
+/*Estilos para mi imagen*/
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+#containerPadre{
+    border: solid 5px cyan;
+    border-radius: 5%;
+    padding: 10px;
+}
